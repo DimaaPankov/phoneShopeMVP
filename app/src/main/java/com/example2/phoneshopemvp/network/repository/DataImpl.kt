@@ -21,9 +21,9 @@ object DataImpl: DataApi {
 
 
         listOf<HomeStore>(
-        HomeStore(1,true,true,R.drawable.i777,"foure chips",499),
-            HomeStore(1,true,true,R.drawable.i888,"poker set",6999),
-            HomeStore(1,true,true,R.drawable.i10101,"chips set",1599),
+        HomeStore(1,true,true,R.drawable.i777,"poker set",6999),
+            HomeStore(1,true,true,R.drawable.i888,"chips set",1599),
+            HomeStore(1,true,true,R.drawable.i10101,"foure chips",499),
             ))
 
     override fun <JsonData> getData():JsonData {

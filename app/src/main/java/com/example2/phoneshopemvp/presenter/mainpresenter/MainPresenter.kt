@@ -5,7 +5,7 @@ import com.example2.phoneshopemvp.network.models.JsonData
 import com.example2.phoneshopemvp.network.repository.DataApi
 
 class MainPresenter(val model:DataApi) {
-    var index  = 2
+    var index  = 0
     var data:JsonData? = null
     private var context: MainViewApi? = null
     fun init(view:MainViewApi){

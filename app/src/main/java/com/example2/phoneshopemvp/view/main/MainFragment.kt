@@ -88,22 +88,22 @@ class MainFragment() : Fragment(),MainViewApi {
         binding.imgBSImage1.setOnClickListener{
             setArgsAndGoSecondFragment(presenter?.data?.bestSeller?.getOrNull(0)?.picture!!,
                 presenter?.data?.bestSeller?.getOrNull(0)?.title!!,
-                presenter?.data?.bestSeller?.getOrNull(0)?.price_without_discount!!,)}
+                presenter?.data?.bestSeller?.getOrNull(0)?.discount_price!!,)}
 
         binding.imgBSImage2.setOnClickListener{
             setArgsAndGoSecondFragment(presenter?.data?.bestSeller?.getOrNull(1)?.picture!!,
                 presenter?.data?.bestSeller?.getOrNull(1)?.title!!,
-                presenter?.data?.bestSeller?.getOrNull(1)?.price_without_discount!!,)
+                presenter?.data?.bestSeller?.getOrNull(1)?.discount_price!!,)
         }
         binding.imgBSImage3.setOnClickListener{
             setArgsAndGoSecondFragment(presenter?.data?.bestSeller?.getOrNull(2)?.picture!!,
                 presenter?.data?.bestSeller?.getOrNull(2)?.title!!,
-                presenter?.data?.bestSeller?.getOrNull(2)?.price_without_discount!!,)
+                presenter?.data?.bestSeller?.getOrNull(2)?.discount_price!!,)
         }
         binding.imgBSImage4.setOnClickListener{
             setArgsAndGoSecondFragment(presenter?.data?.bestSeller?.getOrNull(3)?.picture!!,
                 presenter?.data?.bestSeller?.getOrNull(3)?.title!!,
-                presenter?.data?.bestSeller?.getOrNull(3)?.price_without_discount!!,)
+                presenter?.data?.bestSeller?.getOrNull(3)?.discount_price!!,)
         }
 
     }
